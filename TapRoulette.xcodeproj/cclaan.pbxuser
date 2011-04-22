@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* TapRoulette */ = {
+		activeExec = 0;
+		executables = (
+			74AC3EEB1348FC620035A8C1 /* TapRoulette */,
+		);
+	};
+	2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 585}}";
+			sepNavSelRange = "{219, 76}";
+			sepNavVisRange = "{0, 907}";
+		};
+	};
+	2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 3354}}";
+			sepNavSelRange = "{953, 76}";
+			sepNavVisRange = "{658, 985}";
+			sepNavWindowFrame = "{{0, 64}, {1440, 814}}";
+		};
+	};
+	2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 611}}";
+			sepNavSelRange = "{295, 0}";
+			sepNavVisRange = "{42, 908}";
+		};
+	};
+	2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 3341}}";
+			sepNavSelRange = "{1021, 0}";
+			sepNavVisRange = "{406, 1023}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = "Ad Hoc";
+		activeExecutable = 74AC3EEB1348FC620035A8C1 /* TapRoulette */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* TapRoulette */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* TapRoulette */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 74AC3EF51348FC650035A8C1 /* Code sense */;
+		executables = (
+			74AC3EEB1348FC620035A8C1 /* TapRoulette */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					874,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					834,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 323550306;
+			PBXWorkspaceStateSaveDate = 323550306;
+		};
+		perUserProjectItems = {
+			74AC3FEF134909C10035A8C1 /* PBXTextBookmark */ = 74AC3FEF134909C10035A8C1 /* PBXTextBookmark */;
+			74AC3FF1134909C10035A8C1 /* PBXBookmark */ = 74AC3FF1134909C10035A8C1 /* PBXBookmark */;
+			74AC406213492B820035A8C1 /* PBXTextBookmark */ = 74AC406213492B820035A8C1 /* PBXTextBookmark */;
+			74AC406313492B820035A8C1 /* PBXTextBookmark */ = 74AC406313492B820035A8C1 /* PBXTextBookmark */;
+			74AC408113492CA90035A8C1 /* PBXTextBookmark */ = 74AC408113492CA90035A8C1 /* PBXTextBookmark */;
+			74AC408413492CA90035A8C1 /* PBXTextBookmark */ = 74AC408413492CA90035A8C1 /* PBXTextBookmark */;
+			74AC409513492D700035A8C1 /* PBXTextBookmark */ = 74AC409513492D700035A8C1 /* PBXTextBookmark */;
+			74AC409713492D700035A8C1 /* PBXTextBookmark */ = 74AC409713492D700035A8C1 /* PBXTextBookmark */;
+			74AC409A13492E300035A8C1 /* PBXTextBookmark */ = 74AC409A13492E300035A8C1 /* PBXTextBookmark */;
+			74AC40C8134930DC0035A8C1 /* PBXTextBookmark */ = 74AC40C8134930DC0035A8C1 /* PBXTextBookmark */;
+			74AC40C9134930DC0035A8C1 /* PBXTextBookmark */ = 74AC40C9134930DC0035A8C1 /* PBXTextBookmark */;
+			74AC40DA134932660035A8C1 /* PlistBookmark */ = 74AC40DA134932660035A8C1 /* PlistBookmark */;
+			74AC40DB134932660035A8C1 /* PlistBookmark */ = 74AC40DB134932660035A8C1 /* PlistBookmark */;
+			74AC40DD134A7F870035A8C1 /* PlistBookmark */ = 74AC40DD134A7F870035A8C1 /* PlistBookmark */;
+		};
+		sourceControlManager = 74AC3EF41348FC650035A8C1 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	74AC3EEB1348FC620035A8C1 /* TapRoulette */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TapRoulette;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	74AC3EF41348FC650035A8C1 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	74AC3EF51348FC650035A8C1 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	74AC3F2B1348FF020035A8C1 /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {720, 8047}}";
+			sepNavSelRange = "{5249, 0}";
+			sepNavVisRange = "{4773, 550}";
+		};
+	};
+	74AC3F2C1348FF020035A8C1 /* PFInfoController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 522}}";
+			sepNavSelRange = "{518, 0}";
+			sepNavVisRange = "{0, 524}";
+		};
+	};
+	74AC3F2D1348FF020035A8C1 /* PFInfoController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {719, 1859}}";
+			sepNavSelRange = "{1723, 0}";
+			sepNavVisRange = "{1445, 373}";
+		};
+	};
+	74AC3FEF134909C10035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC3F2B1348FF020035A8C1 /* EAGLView.m */;
+		name = "EAGLView.m: 154";
+		rLen = 0;
+		rLoc = 3561;
+		rType = 0;
+		vrLen = 773;
+		vrLoc = 3134;
+	};
+	74AC3FF1134909C10035A8C1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 74AC3F111348FEEE0035A8C1 /* Default.png */;
+	};
+	74AC405D13492B500035A8C1 /* MPMoviePlayerViewControllerL.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1052, 499}}";
+			sepNavSelRange = "{208, 0}";
+			sepNavVisRange = "{0, 291}";
+		};
+	};
+	74AC405E13492B500035A8C1 /* MPMoviePlayerViewControllerL.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 832}}";
+			sepNavSelRange = "{1261, 0}";
+			sepNavVisRange = "{617, 1013}";
+		};
+	};
+	74AC406213492B820035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC405D13492B500035A8C1 /* MPMoviePlayerViewControllerL.h */;
+		name = "MPMoviePlayerViewControllerL.h: 10";
+		rLen = 0;
+		rLoc = 208;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	74AC406313492B820035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC405E13492B500035A8C1 /* MPMoviePlayerViewControllerL.m */;
+		name = "MPMoviePlayerViewControllerL.m: 42";
+		rLen = 0;
+		rLoc = 1261;
+		rType = 0;
+		vrLen = 1013;
+		vrLoc = 617;
+	};
+	74AC408113492CA90035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC408213492CA90035A8C1 /* UIApplication.h */;
+		name = "UIApplication.h: 264";
+		rLen = 42;
+		rLoc = 13960;
+		rType = 0;
+		vrLen = 3473;
+		vrLoc = 12937;
+	};
+	74AC408213492CA90035A8C1 /* UIApplication.h */ = {
+		isa = PBXFileReference;
+		name = UIApplication.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIApplication.h;
+		sourceTree = "<absolute>";
+	};
+	74AC408413492CA90035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E325111B887F00E27156 /* AppDelegate_iPhone.h */;
+		name = "AppDelegate_iPhone.h: 12";
+		rLen = 76;
+		rLoc = 219;
+		rType = 0;
+		vrLen = 907;
+		vrLoc = 0;
+	};
+	74AC409513492D700035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E32B111B888700E27156 /* AppDelegate_iPad.h */;
+		name = "AppDelegate_iPad.h: 15";
+		rLen = 0;
+		rLoc = 295;
+		rType = 0;
+		vrLen = 908;
+		vrLoc = 42;
+	};
+	74AC409713492D700035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC3F2D1348FF020035A8C1 /* PFInfoController.m */;
+		name = "PFInfoController.m: 59";
+		rLen = 28;
+		rLoc = 1174;
+		rType = 0;
+		vrLen = 780;
+		vrLoc = 971;
+	};
+	74AC409A13492E300035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 74AC3F2C1348FF020035A8C1 /* PFInfoController.h */;
+		name = "PFInfoController.h: 27";
+		rLen = 0;
+		rLoc = 518;
+		rType = 0;
+		vrLen = 524;
+		vrLoc = 0;
+	};
+	74AC40C8134930DC0035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */;
+		name = "AppDelegate_iPad.m: 42";
+		rLen = 0;
+		rLoc = 1021;
+		rType = 0;
+		vrLen = 1023;
+		vrLoc = 406;
+	};
+	74AC40C9134930DC0035A8C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */;
+		name = "AppDelegate_iPhone.m: 44";
+		rLen = 76;
+		rLoc = 953;
+		rType = 0;
+		vrLen = 985;
+		vrLoc = 658;
+	};
+	74AC40DA134932660035A8C1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* TapRoulette-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleInfoDictionaryVersion,
+		);
+		name = "/Users/cclaan/projects/iphone/TapRoulette/TapRoulette-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	74AC40DB134932660035A8C1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 74AC40D5134932540035A8C1 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/cclaan/projects/iphone/TapRoulette/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	74AC40DD134A7F870035A8C1 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 74AC40D5134932540035A8C1 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/cclaan/projects/iphone/TapRoulette/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+}

@@ -1,0 +1,10 @@
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad applicationDidFinishLaunching:]':
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: 'AppDelegate_iPad' may not respond to '-showIntroAlert'
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: (Messages without a matching method signature
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: will be assumed to return 'id' and accept
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: '...' as arguments.)
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:43: warning: 'AppDelegate_iPad' may not respond to '-animateFingers'
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad infoClicked]':
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:104: warning: 'AppDelegate_iPad' may not respond to '-showInfo'
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad closeInfoClicked]':
+/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:108: warning: 'AppDelegate_iPad' may not respond to '-hideInfo'

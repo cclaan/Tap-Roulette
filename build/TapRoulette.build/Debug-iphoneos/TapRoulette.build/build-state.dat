@@ -1,0 +1,1347 @@
+TTapRoulette
+v7
+r0
+t323554299.631783
+cCheck dependencies
+cCpResource build/Debug-iphoneos/TapRoulette.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Info.plist TapRoulette-Info.plist
+cCompileXIB /Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib
+cCompileXIB /Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib
+cCpResource build/Debug-iphoneos/TapRoulette.app/touchUpSound2.wav touchUpSound2.wav
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon@2x.png Icon@2x.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon.png Icon.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png Icon-Small@2x.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small.png Icon-Small.png
+cCpResource build/Debug-iphoneos/TapRoulette.app/tickSound.wav tickSound.wav
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png Icon-Small-50.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-72.png Icon-72.png
+cCpResource build/Debug-iphoneos/TapRoulette.app/iTunesArtwork iTunesArtwork
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default.png Default.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button_down.png pick_button_down.png
+cCpResource build/Debug-iphoneos/TapRoulette.app/chooseSound.wav chooseSound.wav
+cCpResource build/Debug-iphoneos/TapRoulette.app/clickSound.wav clickSound.wav
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button.png pick_button.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/bg.png bg.png
+cCompileXIB /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib
+cCompileXIB /Users/cclaan/projects/iphone/TapRoulette/InfoController.xib
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default-iPad.png Default-iPad.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png finger-images/finger-5-iphone.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png finger-images/finger-4-iphone.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png finger-images/finger-3-iphone.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png finger-images/finger-2-iphone.png
+cCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png finger-images/finger-1-iphone.png
+cProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/main.o /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Texture2D.o /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Sound.o /Users/cclaan/projects/iphone/TapRoulette/Sound.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/EAGLView.o /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/PFInfoController.o /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/InfoController.o /Users/cclaan/projects/iphone/TapRoulette/InfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/main.o /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette normal armv6
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Texture2D.o /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Sound.o /Users/cclaan/projects/iphone/TapRoulette/Sound.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/EAGLView.o /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/PFInfoController.o /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/InfoController.o /Users/cclaan/projects/iphone/TapRoulette/InfoController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette normal armv7
+cCreateUniversalBinary /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette normal "armv6 armv7"
+cGenerateDSYMFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app.dSYM /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette
+cProcessProductPackaging "/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision" /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision
+cTouch /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent
+cCodeSign /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioServices.h
+c000000004CC10EB60000000000010AAC
+t1287720630
+s68268
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.h
+c000000004CC247E70000000000000294
+t1287800807
+s660
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004CC2483E000000000038CF50
+t1287800894
+s3723088
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision
+c000000004D98BFE50000000000002A2B
+t1301856229
+s10795
+
+N/Users/cclaan/projects/iphone/TapRoulette/Default-iPad.png
+c000000004D98CF9C0000000000036E67
+t1301860252
+s224871
+
+N/Users/cclaan/projects/iphone/TapRoulette/Default.png
+c000000004A529B2A000000000001281E
+t1246927658
+s75806
+
+N/Users/cclaan/projects/iphone/TapRoulette/EAGLView.h
+c000000004D98A985000000000000067F
+t1301850501
+s1663
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"Sound.h"
+i"Texture2D.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/EAGLView.m
+c000000004D98CCE2000000000000334B
+t1301859554
+s13131
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGLDrawable.h>
+i"EAGLView.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon-72.png
+c000000004D97C9440000000000003A16
+t1301793092
+s14870
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon-Small-50.png
+c000000004D97C9440000000000002AA6
+t1301793092
+s10918
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon-Small.png
+c000000004D97C9440000000000001F45
+t1301793092
+s8005
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon-Small@2x.png
+c000000004D97C9440000000000002FA5
+t1301793092
+s12197
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon.png
+c000000004D97C9440000000000002F43
+t1301793092
+s12099
+
+N/Users/cclaan/projects/iphone/TapRoulette/Icon@2x.png
+c000000004D97C9440000000000006050
+t1301793092
+s24656
+
+N/Users/cclaan/projects/iphone/TapRoulette/InfoController.h
+c000000004D97C09900000000000000FA
+t1301790873
+s250
+i<UIKit/UIKit.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/InfoController.m
+c000000004A528D4C0000000000000568
+t1246924108
+s1384
+i"InfoController.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/InfoController.xib
+c000000004D97C0FE000000000005CF06
+t1301790974
+s380678
+
+N/Users/cclaan/projects/iphone/TapRoulette/MPMoviePlayerViewControllerL.h
+c000000004D98F3DC0000000000000123
+t1301869532
+s291
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/MPMoviePlayerViewControllerL.m
+c000000004D98F3ED000000000000067C
+t1301869549
+s1660
+i"MPMoviePlayerViewControllerL.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.h
+c000000004D98F5C6000000000000020C
+t1301870022
+s524
+i<UIKit/UIKit.h>
+i<MediaPlayer/MediaPlayer.h>
+i"MPMoviePlayerViewControllerL.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m
+c000000004D98F5ED0000000000000C10
+t1301870061
+s3088
+i"PFInfoController.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib
+c000000004D98F5D6000000000005E503
+t1301870038
+s386307
+
+N/Users/cclaan/projects/iphone/TapRoulette/Shared/main.m
+c000000004D98C4E20000000000000162
+t1301857506
+s354
+i<UIKit/UIKit.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/Sound.h
+c0000000049624A3A000000000000013A
+t1231178298
+s314
+i<Foundation/Foundation.h>
+i<AudioToolbox/AudioServices.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/Sound.m
+c0000000049624A3A00000000000001F7
+t1231178298
+s503
+i"Sound.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/TapRoulette_Prefix.pch
+c000000004D98C4E200000000000000BF
+t1301857506
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/Texture2D.h
+c0000000049D949BC00000000000012AB
+t1238976956
+s4779
+i<UIKit/UIKit.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/cclaan/projects/iphone/TapRoulette/Texture2D.m
+c0000000049D90DAC0000000000002994
+t1238961580
+s10644
+i<OpenGLES/ES1/glext.h>
+i"Texture2D.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/bg.png
+c000000004A19AC2E000000000000162C
+t1243196462
+s5676
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+t1301861499
+s1156
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app.dSYM
+t1301861498
+s102
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default-iPad.png
+t1301861496
+s285742
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default.png
+t1301858344
+s85908
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-72.png
+t1301858344
+s14312
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png
+t1301858344
+s10636
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small.png
+t1301858344
+s7891
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png
+t1301858344
+s11850
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon.png
+t1301858344
+s11748
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon@2x.png
+t1301858344
+s23365
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Info.plist
+t1301861493
+s1345
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/InfoController.nib
+t1301858346
+s1915
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/MainWindow_iPad.nib
+t1301861494
+s2307
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/MainWindow_iPhone.nib
+t1301861494
+s3156
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/PFInfoController.nib
+t1301861494
+s2874
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/PkgInfo
+t1301861493
+s8
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/ResourceRules.plist
+t1301858337
+s485
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette
+t1301861498
+s150560
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/bg.png
+t1301858344
+s6848
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/chooseSound.wav
+t1301858344
+s349964
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/clickSound.wav
+t1301858344
+s31980
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/demo.mov
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision
+t1301858353
+s10795
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-ipad.png
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png
+t1301861495
+s15364
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-ipad.png
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png
+t1301861495
+s18142
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-ipad.png
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png
+t1301861495
+s20047
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-ipad.png
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png
+t1301861495
+s11477
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-ipad.png
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png
+t1301861495
+s12843
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/iTunesArtwork
+t1301858344
+s138682
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button.png
+t1301858344
+s6119
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button_down.png
+t1301858344
+s5868
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/tickSound.wav
+t1301858344
+s13704
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/touchUpSound2.wav
+t1301858343
+s61804
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPad.o
+t1301861497
+s63180
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPhone.o
+t1301861497
+s66376
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/EAGLView.o
+t1301861497
+s81572
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/InfoController.o
+t1301858353
+s37352
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/MPMoviePlayerViewControllerL.o
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/PFInfoController.o
+t1301858352
+s42664
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Sound.o
+t1301858352
+s9032
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette
+t1301861498
+s67488
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette.LinkFileList
+c000000004D98C8210000000000000432
+t1301858337
+s1074
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Texture2D.o
+t1301858352
+s29628
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/main.o
+t1301858352
+s6468
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPad.o
+t1301861497
+s62968
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPhone.o
+t1301861497
+s65848
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/EAGLView.o
+t1301861497
+s78696
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/InfoController.o
+t1301858353
+s37328
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/MPMoviePlayerViewControllerL.o
+t2
+s0
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/PFInfoController.o
+t1301858353
+s42584
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Sound.o
+t1301858353
+s8992
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette
+t1301861497
+s66592
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette.LinkFileList
+c000000004D98C8210000000000000432
+t1301858337
+s1074
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Texture2D.o
+t1301858353
+s27604
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/main.o
+t1301858353
+s6452
+
+N/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent
+t1301861498
+s428
+
+N/Users/cclaan/projects/iphone/TapRoulette/chooseSound.wav
+c000000004A1AD2A6000000000005570C
+t1243271846
+s349964
+
+N/Users/cclaan/projects/iphone/TapRoulette/clickSound.wav
+c000000004D98AABB0000000000007CEC
+t1301850811
+s31980
+
+N/Users/cclaan/projects/iphone/TapRoulette/demo.mov
+c000000004D98EF1000000000003534AC
+t1301868304
+s3486892
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images-ipad/finger-1-ipad.png
+c000000004D98D589000000000000AB1B
+t1301861769
+s43803
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images-ipad/finger-2-ipad.png
+c000000004D98D597000000000000B76B
+t1301861783
+s46955
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images-ipad/finger-3-ipad.png
+c000000004D98D5A7000000000000AB8D
+t1301861799
+s43917
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images-ipad/finger-4-ipad.png
+c000000004D98D5B80000000000007C77
+t1301861816
+s31863
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images-ipad/finger-5-ipad.png
+c000000004D98D5CB00000000000069E1
+t1301861835
+s27105
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-1-iphone.png
+c000000004D98D15000000000000034FD
+t1301860688
+s13565
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-2-iphone.png
+c000000004D98D16B00000000000040E0
+t1301860715
+s16608
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-3-iphone.png
+c000000004D98D1900000000000004200
+t1301860752
+s16896
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-4-iphone.png
+c000000004D98D1A10000000000002728
+t1301860769
+s10024
+
+N/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-5-iphone.png
+c000000004D98D1B40000000000002CFF
+t1301860788
+s11519
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.h
+c000000004D98F52800000000000003BC
+t1301869864
+s956
+i<UIKit/UIKit.h>
+i"InfoController.h"
+i"PFInfoController.h"
+i<MediaPlayer/MediaPlayer.h>
+i"MPMoviePlayerViewControllerL.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m
+c000000004D98F8BC0000000000001722
+t1301870780
+s5922
+i"AppDelegate_iPad.h"
+i"EAGLView.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib
+c000000004D98D6D500000000000094A4
+t1301862101
+s38052
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.h
+c000000004D98F3F900000000000003C0
+t1301869561
+s960
+i<UIKit/UIKit.h>
+i"InfoController.h"
+i"PFInfoController.h"
+i<MediaPlayer/MediaPlayer.h>
+i"MPMoviePlayerViewControllerL.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m
+c000000004D98F8B600000000000016DC
+t1301870774
+s5852
+i"AppDelegate_iPhone.h"
+i"EAGLView.h"
+
+N/Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib
+c000000004D98D4270000000000009605
+t1301861415
+s38405
+
+N/Users/cclaan/projects/iphone/TapRoulette/iTunesArtwork
+c000000004D97C9320000000000021DBA
+t1301793074
+s138682
+
+N/Users/cclaan/projects/iphone/TapRoulette/pick_button.png
+c000000004A19AC8200000000000013FF
+t1243196546
+s5119
+
+N/Users/cclaan/projects/iphone/TapRoulette/pick_button_down.png
+c000000004A52973A00000000000015FD
+t1246926650
+s5629
+
+N/Users/cclaan/projects/iphone/TapRoulette/tickSound.wav
+c000000004D97D8770000000000003588
+t1301796983
+s13704
+
+N/Users/cclaan/projects/iphone/TapRoulette/touchUpSound2.wav
+c000000004D98A925000000000000F16C
+t1301850405
+s61804
+
+N/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch.gch
+t1301858350
+s9983704
+
+N/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch.gch
+t1301858351
+s10446552
+
+N/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-eyuozxbvgmzigbfbnomresjkxroh/TapRoulette_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-ffcevuzrkbxaymepczfndhvycfgq/TapRoulette_Prefix.pch.gch
+t2
+s0
+
+NTapRoulette-Info.plist
+c000000004D98F93300000000000006BC
+t1301870899
+s1724
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies323554293#323554293#0(0"0(0#1#0"8722675232#0"0#
+
+CCodeSign /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+s323554298.213675
+e323554299.631597
+r1
+xCodeSign
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+lSLF07#2@45"CodeSign build/Debug-iphoneos/TapRoulette.app323554298#323554299#0(0"0(0#0#78"/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app8719453504#740"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: jason laan (W6UGGF23B8)" --resource-rules=/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/ResourceRules.plist --entitlements /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPad.o /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323554296.342214
+e323554297.113846
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPad.o
+x/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad applicationDidFinishLaunching:]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: 'AppDelegate_iPad' may not respond to '-showIntroAlert'
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: '...' as arguments.)
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad infoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:65: warning: 'AppDelegate_iPad' may not respond to '-showInfo'
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad closeInfoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:69: warning: 'AppDelegate_iPad' may not respond to '-hideInfo'
+lSLF07#2@73"Compile /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323554296#323554297#0(1105"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad applicationDidFinishLaunching:]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: 'AppDelegate_iPad' may not respond to '-showIntroAlert'/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: '...' as arguments.)/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad infoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:65: warning: 'AppDelegate_iPad' may not respond to '-showInfo'/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad closeInfoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:69: warning: 'AppDelegate_iPad' may not respond to '-hideInfo'4(22@55"'AppDelegate_iPad' may not respond to '-showIntroAlert'323554296#133#135#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323554296#268#125#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#25#0#25#0#0"0(22@49"'AppDelegate_iPad' may not respond to '-showInfo'323554296#728#129#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#65#0#65#0#26"'*' may not respond to '*'0(22@49"'AppDelegate_iPad' may not respond to '-hideInfo'323554296#976#129#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#69#0#69#0#26"'*' may not respond to '*'0(0#0#65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m8725377280#1928"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPad.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPhone.o /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323554296.340163
+e323554297.111421
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPhone.o
+x/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone applicationDidFinishLaunching:]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: 'AppDelegate_iPhone' may not respond to '-showIntroAlert'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: '...' as arguments.)
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:45: warning: 'AppDelegate_iPhone' may not respond to '-animateFingers'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone infoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:106: warning: 'AppDelegate_iPhone' may not respond to '-showInfo'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone closeInfoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:110: warning: 'AppDelegate_iPhone' may not respond to '-hideInfo'
+lSLF07#2@77"Compile /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554296#323554297#0(1296"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone applicationDidFinishLaunching:]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: 'AppDelegate_iPhone' may not respond to '-showIntroAlert'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: '...' as arguments.)/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:45: warning: 'AppDelegate_iPhone' may not respond to '-animateFingers'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone infoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:106: warning: 'AppDelegate_iPhone' may not respond to '-showInfo'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone closeInfoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:110: warning: 'AppDelegate_iPhone' may not respond to '-hideInfo'5(22@57"'AppDelegate_iPhone' may not respond to '-showIntroAlert'323554296#139#141#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#26#0#26#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323554296#280#129#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#26#0#26#0#0"0(22@57"'AppDelegate_iPhone' may not respond to '-animateFingers'323554296#638#141#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#45#0#45#0#26"'*' may not respond to '*'0(22@51"'AppDelegate_iPhone' may not respond to '-showInfo'323554296#899#136#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#106#0#106#0#26"'*' may not respond to '*'0(22@51"'AppDelegate_iPhone' may not respond to '-hideInfo'323554296#1160#136#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#110#0#110#0#26"'*' may not respond to '*'0(0#0#69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m8726372608#1934"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/AppDelegate_iPhone.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/EAGLView.o /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323554297.112518
+e323554297.490821
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/EAGLView.o
+x/Users/cclaan/projects/iphone/TapRoulette/EAGLView.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m323554297#323554297#0(0"0(0#0#52"/Users/cclaan/projects/iphone/TapRoulette/EAGLView.m8725505856#1907"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/EAGLView.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/InfoController.o /Users/cclaan/projects/iphone/TapRoulette/InfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551152.825014
+e323551153.125007
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/InfoController.o
+x/Users/cclaan/projects/iphone/TapRoulette/InfoController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: incomplete implementation of class 'InfoController'
+o/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: method definition for '-closeClicked' not found
+lSLF07#2@66"Compile /Users/cclaan/projects/iphone/TapRoulette/InfoController.m323551152#323551153#0(244"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: incomplete implementation of class 'InfoController'/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: method definition for '-closeClicked' not found2(22@51"Incomplete implementation of class 'InfoController'323551152#0#124#0(6@58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m268616908#57#0#57#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-closeClicked' not found323551152#124#120#0(6@58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m268616908#57#0#57#0#35"method definition for '*' not found0(0#0#58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m8714309312#1919"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/InfoController.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/InfoController.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/MPMoviePlayerViewControllerL.o /Users/cclaan/projects/iphone/TapRoulette/MPMoviePlayerViewControllerL.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/PFInfoController.o /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551152.662476
+e323551152.824912
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/PFInfoController.o
+x/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m: In function '-[PFInfoController prefChanged]':
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: no '-prefChangedWithIndex:' method found
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: '...' as arguments.)
+lSLF07#2@68"Compile /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323551152#323551152#0(555"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m: In function '-[PFInfoController prefChanged]':/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: no '-prefChangedWithIndex:' method found/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: '...' as arguments.)2(22@40"No '-prefChangedWithIndex:' method found323551152#109#115#0(6@60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323490121#45#0#45#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323551152#224#120#0(6@60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323490121#45#0#45#0#0"0(0#0#60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m8720081600#1923"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/PFInfoController.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Sound.o /Users/cclaan/projects/iphone/TapRoulette/Sound.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551152.385063
+e323551152.532229
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Sound.o
+x/Users/cclaan/projects/iphone/TapRoulette/Sound.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cclaan/projects/iphone/TapRoulette/Sound.m323551152#323551152#0(0"0(0#0#49"/Users/cclaan/projects/iphone/TapRoulette/Sound.m8718195552#1901"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Sound.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Sound.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Texture2D.o /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551152.346489
+e323551152.662385
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Texture2D.o
+x/Users/cclaan/projects/iphone/TapRoulette/Texture2D.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m323551152#323551152#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/Texture2D.m8719186112#1909"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/Texture2D.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/main.o /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551152.024282
+e323551152.239947
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/main.o
+x/Users/cclaan/projects/iphone/TapRoulette/Shared/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m323551152#323551152#0(0"0(0#0#55"/Users/cclaan/projects/iphone/TapRoulette/Shared/main.m8714137920#1906"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPad.o /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323554297.311698
+e323554297.534923
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPad.o
+x/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad applicationDidFinishLaunching:]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: 'AppDelegate_iPad' may not respond to '-showIntroAlert'
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: '...' as arguments.)
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad infoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:65: warning: 'AppDelegate_iPad' may not respond to '-showInfo'
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad closeInfoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:69: warning: 'AppDelegate_iPad' may not respond to '-hideInfo'
+lSLF07#2@73"Compile /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323554297#323554297#0(1105"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad applicationDidFinishLaunching:]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: 'AppDelegate_iPad' may not respond to '-showIntroAlert'/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:25: warning: '...' as arguments.)/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad infoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:65: warning: 'AppDelegate_iPad' may not respond to '-showInfo'/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m: In function '-[AppDelegate_iPad closeInfoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m:69: warning: 'AppDelegate_iPad' may not respond to '-hideInfo'4(22@55"'AppDelegate_iPad' may not respond to '-showIntroAlert'323554297#133#135#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#25#0#25#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323554297#268#125#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#25#0#25#0#0"0(22@49"'AppDelegate_iPad' may not respond to '-showInfo'323554297#728#129#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#65#0#65#0#26"'*' may not respond to '*'0(22@49"'AppDelegate_iPad' may not respond to '-hideInfo'323554297#976#129#0(6@65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m323551770#69#0#69#0#26"'*' may not respond to '*'0(0#0#65"/Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m8725145120#1928"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/iPad/AppDelegate_iPad.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPad.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPhone.o /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323554297.116232
+e323554297.311575
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPhone.o
+x/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone applicationDidFinishLaunching:]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: 'AppDelegate_iPhone' may not respond to '-showIntroAlert'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: '...' as arguments.)
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:45: warning: 'AppDelegate_iPhone' may not respond to '-animateFingers'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone infoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:106: warning: 'AppDelegate_iPhone' may not respond to '-showInfo'
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone closeInfoClicked]':
+o/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:110: warning: 'AppDelegate_iPhone' may not respond to '-hideInfo'
+lSLF07#2@77"Compile /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554297#323554297#0(1296"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone applicationDidFinishLaunching:]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: 'AppDelegate_iPhone' may not respond to '-showIntroAlert'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:26: warning: '...' as arguments.)/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:45: warning: 'AppDelegate_iPhone' may not respond to '-animateFingers'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone infoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:106: warning: 'AppDelegate_iPhone' may not respond to '-showInfo'/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m: In function '-[AppDelegate_iPhone closeInfoClicked]':/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m:110: warning: 'AppDelegate_iPhone' may not respond to '-hideInfo'5(22@57"'AppDelegate_iPhone' may not respond to '-showIntroAlert'323554297#139#141#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#26#0#26#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323554297#280#129#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#26#0#26#0#0"0(22@57"'AppDelegate_iPhone' may not respond to '-animateFingers'323554297#638#141#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#45#0#45#0#26"'*' may not respond to '*'0(22@51"'AppDelegate_iPhone' may not respond to '-showInfo'323554297#899#136#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#106#0#106#0#26"'*' may not respond to '*'0(22@51"'AppDelegate_iPhone' may not respond to '-hideInfo'323554297#1160#136#0(6@69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m323554271#110#0#110#0#26"'*' may not respond to '*'0(0#0#69"/Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m8724532384#1934"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/iPhone/AppDelegate_iPhone.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/AppDelegate_iPhone.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/EAGLView.o /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323554297.535180
+e323554297.723120
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/EAGLView.o
+x/Users/cclaan/projects/iphone/TapRoulette/EAGLView.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m323554297#323554297#0(0"0(0#0#52"/Users/cclaan/projects/iphone/TapRoulette/EAGLView.m8723014176#1907"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/EAGLView.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/EAGLView.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/InfoController.o /Users/cclaan/projects/iphone/TapRoulette/InfoController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551153.672268
+e323551153.774837
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/InfoController.o
+x/Users/cclaan/projects/iphone/TapRoulette/InfoController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: incomplete implementation of class 'InfoController'
+o/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: method definition for '-closeClicked' not found
+lSLF07#2@66"Compile /Users/cclaan/projects/iphone/TapRoulette/InfoController.m323551153#323551153#0(244"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: incomplete implementation of class 'InfoController'/Users/cclaan/projects/iphone/TapRoulette/InfoController.m:57: warning: method definition for '-closeClicked' not found2(22@51"Incomplete implementation of class 'InfoController'323551153#0#124#0(6@58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m268616908#57#0#57#0#38"incomplete implementation of class '*'0(22@47"Method definition for '-closeClicked' not found323551153#124#120#0(6@58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m268616908#57#0#57#0#35"method definition for '*' not found0(0#0#58"/Users/cclaan/projects/iphone/TapRoulette/InfoController.m8718746912#1919"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/InfoController.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/InfoController.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/MPMoviePlayerViewControllerL.o /Users/cclaan/projects/iphone/TapRoulette/MPMoviePlayerViewControllerL.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/PFInfoController.o /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551153.526725
+e323551153.672170
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/PFInfoController.o
+x/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m: In function '-[PFInfoController prefChanged]':
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: no '-prefChangedWithIndex:' method found
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: (Messages without a matching method signature
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: will be assumed to return 'id' and accept
+o/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: '...' as arguments.)
+lSLF07#2@68"Compile /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323551153#323551153#0(555"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m: In function '-[PFInfoController prefChanged]':/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: no '-prefChangedWithIndex:' method found/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: (Messages without a matching method signature/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: will be assumed to return 'id' and accept/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m:45: warning: '...' as arguments.)2(22@40"No '-prefChangedWithIndex:' method found323551153#109#115#0(6@60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323490121#45#0#45#0#19"no '*' method found0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)323551153#224#120#0(6@60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m323490121#45#0#45#0#0"0(0#0#60"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m8722619232#1923"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/PFInfoController.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Sound.o /Users/cclaan/projects/iphone/TapRoulette/Sound.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551153.425415
+e323551153.526608
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Sound.o
+x/Users/cclaan/projects/iphone/TapRoulette/Sound.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@57"Compile /Users/cclaan/projects/iphone/TapRoulette/Sound.m323551153#323551153#0(0"0(0#0#49"/Users/cclaan/projects/iphone/TapRoulette/Sound.m8713904576#1901"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Sound.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Sound.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Texture2D.o /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551153.247883
+e323551153.514903
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Texture2D.o
+x/Users/cclaan/projects/iphone/TapRoulette/Texture2D.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m323551153#323551153#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/Texture2D.m8722502432#1909"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Texture2D.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/Texture2D.o0#
+
+CCompileC build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/main.o /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551152.900074
+e323551153.056499
+r1
+xCompileC
+xbuild/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/main.o
+x/Users/cclaan/projects/iphone/TapRoulette/Shared/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m323551152#323551153#0(0"0(0#0#55"/Users/cclaan/projects/iphone/TapRoulette/Shared/main.m8713404672#1906"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -include /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch -c /Users/cclaan/projects/iphone/TapRoulette/Shared/main.m -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/main.o0#
+
+CCompileXIB /Users/cclaan/projects/iphone/TapRoulette/InfoController.xib
+s323551144.823866
+e323551146.256554
+r1
+xCompileXIB
+x/Users/cclaan/projects/iphone/TapRoulette/InfoController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/cclaan/projects/iphone/TapRoulette/InfoController.xib:1: warning: The scroll view textured background pattern color is not available in iOS versions prior to 3.2.
+lSLF07#2@29"CompileXIB InfoController.xib323551144#323551146#0(211"/* com.apple.ibtool.document.warnings *//Users/cclaan/projects/iphone/TapRoulette/InfoController.xib:1: warning: The scroll view textured background pattern color is not available in iOS versions prior to 3.2.1(22@96"The scroll view textured background pattern color is not available in iOS versions prior to 3.2.323551146#18446744073709551615#0#0(6@60"/Users/cclaan/projects/iphone/TapRoulette/InfoController.xib323483774#1#0#1#0#0"0(0#0#60"/Users/cclaan/projects/iphone/TapRoulette/InfoController.xib8713392224#625"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/InfoController.nib /Users/cclaan/projects/iphone/TapRoulette/InfoController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib
+s323554294.262163
+e323554294.968204
+r1
+xCompileXIB
+x/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib
+lSLF07#2@31"CompileXIB PFInfoController.xib323554294#323554294#0(0"0(0#0#62"/Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib8724844800#629"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/PFInfoController.nib /Users/cclaan/projects/iphone/TapRoulette/PFInfoController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib
+s323554293.428215
+e323554294.261237
+r1
+xCompileXIB
+x/Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib
+lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib323554293#323554294#0(0"0(0#0#66"/Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib8711458368#632"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/MainWindow_iPad.nib /Users/cclaan/projects/iphone/TapRoulette/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCompileXIB /Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib
+s323554293.425457
+e323554294.265792
+r1
+xCompileXIB
+x/Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib
+lSLF07#2@39"CompileXIB iPhone/MainWindow_iPhone.xib323554293#323554294#0(0"0(0#0#70"/Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib8608074848#638"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/MainWindow_iPhone.nib /Users/cclaan/projects/iphone/TapRoulette/iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default-iPad.png Default-iPad.png
+s323554294.266924
+e323554296.339745
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default-iPad.png
+xDefault-iPad.png
+lSLF07#2@82"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Default-iPad.png Default-iPad.png323554294#323554296#0(0"0(0#0#58"/Users/cclaan/projects/iphone/TapRoulette/Default-iPad.png8724652832#647"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Default-iPad.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default-iPad.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default.png Default.png
+s323551144.243107
+e323551144.731286
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default.png
+xDefault.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Default.png Default.png323551144#323551144#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/Default.png8712845920#637"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Default.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Default.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-72.png Icon-72.png
+s323551144.224762
+e323551144.344512
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-72.png
+xIcon-72.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon-72.png Icon-72.png323551144#323551144#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/Icon-72.png8720240000#637"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon-72.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-72.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png Icon-Small-50.png
+s323551144.179098
+e323551144.240587
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png
+xIcon-Small-50.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png Icon-Small-50.png323551144#323551144#0(0"0(0#0#59"/Users/cclaan/projects/iphone/TapRoulette/Icon-Small-50.png8721330304#649"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon-Small-50.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small-50.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small.png Icon-Small.png
+s323551144.174529
+e323551144.224672
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small.png
+xIcon-Small.png
+lSLF07#2@78"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon-Small.png Icon-Small.png323551144#323551144#0(0"0(0#0#56"/Users/cclaan/projects/iphone/TapRoulette/Icon-Small.png8722254688#643"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon-Small.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png Icon-Small@2x.png
+s323551144.053781
+e323551144.174439
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png
+xIcon-Small@2x.png
+lSLF07#2@84"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png Icon-Small@2x.png323551144#323551144#0(0"0(0#0#59"/Users/cclaan/projects/iphone/TapRoulette/Icon-Small@2x.png8722283712#649"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon-Small@2x.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon.png Icon.png
+s323551143.354731
+e323551144.053670
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon.png
+xIcon.png
+lSLF07#2@66"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon.png Icon.png323551143#323551144#0(0"0(0#0#50"/Users/cclaan/projects/iphone/TapRoulette/Icon.png8723043232#631"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon@2x.png Icon@2x.png
+s323551142.757803
+e323551144.175749
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon@2x.png
+xIcon@2x.png
+lSLF07#2@72"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/Icon@2x.png Icon@2x.png323551142#323551144#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/Icon@2x.png8706806176#637"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/Icon@2x.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/bg.png bg.png
+s323551144.605924
+e323551144.823318
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/bg.png
+xbg.png
+lSLF07#2@62"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/bg.png bg.png323551144#323551144#0(0"0(0#0#48"/Users/cclaan/projects/iphone/TapRoulette/bg.png8721839648#627"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/bg.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/bg.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-ipad.png finger-images-ipad/finger-1-ipad.png
+r0
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png finger-images/finger-1-iphone.png
+s323554295.379196
+e323554295.447735
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png
+xfinger-images/finger-1-iphone.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png finger-images/finger-1-iphone.png323554295#323554295#0(0"0(0#0#75"/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-1-iphone.png8725896384#667"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-1-iphone.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-1-iphone.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-ipad.png finger-images-ipad/finger-2-ipad.png
+r0
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png finger-images/finger-2-iphone.png
+s323554295.291232
+e323554295.379110
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png
+xfinger-images/finger-2-iphone.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png finger-images/finger-2-iphone.png323554295#323554295#0(0"0(0#0#75"/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-2-iphone.png8726428640#667"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-2-iphone.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-2-iphone.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-ipad.png finger-images-ipad/finger-3-ipad.png
+r0
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png finger-images/finger-3-iphone.png
+s323554295.166838
+e323554295.291135
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png
+xfinger-images/finger-3-iphone.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png finger-images/finger-3-iphone.png323554295#323554295#0(0"0(0#0#75"/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-3-iphone.png8722648576#667"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-3-iphone.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-3-iphone.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-ipad.png finger-images-ipad/finger-4-ipad.png
+r0
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png finger-images/finger-4-iphone.png
+s323554295.033162
+e323554295.166748
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png
+xfinger-images/finger-4-iphone.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png finger-images/finger-4-iphone.png323554295#323554295#0(0"0(0#0#75"/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-4-iphone.png8722862336#667"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-4-iphone.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-4-iphone.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-ipad.png finger-images-ipad/finger-5-ipad.png
+r0
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png finger-images/finger-5-iphone.png
+s323554294.968422
+e323554295.033075
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png
+xfinger-images/finger-5-iphone.png
+lSLF07#2@102"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png finger-images/finger-5-iphone.png323554294#323554295#0(0"0(0#0#75"/Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-5-iphone.png8723043168#667"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/finger-images/finger-5-iphone.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/finger-5-iphone.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button.png pick_button.png
+s323551144.524905
+e323551144.605834
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button.png
+xpick_button.png
+lSLF07#2@80"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/pick_button.png pick_button.png323551144#323551144#0(0"0(0#0#57"/Users/cclaan/projects/iphone/TapRoulette/pick_button.png8722352160#645"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/pick_button.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button.png0#
+
+CCopyPNGFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button_down.png pick_button_down.png
+s323551144.344603
+e323551144.516874
+r1
+xCopyPNGFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button_down.png
+xpick_button_down.png
+lSLF07#2@90"CopyPNGFile build/Debug-iphoneos/TapRoulette.app/pick_button_down.png pick_button_down.png323551144#323551144#0(0"0(0#0#62"/Users/cclaan/projects/iphone/TapRoulette/pick_button_down.png8711566048#655"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/cclaan/projects/iphone/TapRoulette/pick_button_down.png /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/pick_button_down.png0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s323551137.560110
+e323551137.637946
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist323551137#323551137#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8722036896#566"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/chooseSound.wav chooseSound.wav
+s323551144.516952
+e323551144.583274
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/chooseSound.wav
+xchooseSound.wav
+lSLF07#2@20"Copy chooseSound.wav323551144#323551144#0(0"0(0#0#57"/Users/cclaan/projects/iphone/TapRoulette/chooseSound.wav8724552512#534"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cclaan/projects/iphone/TapRoulette/chooseSound.wav /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/clickSound.wav clickSound.wav
+s323551144.517795
+e323551144.556239
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/clickSound.wav
+xclickSound.wav
+lSLF07#2@19"Copy clickSound.wav323551144#323551144#0(0"0(0#0#56"/Users/cclaan/projects/iphone/TapRoulette/clickSound.wav8722780160#533"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cclaan/projects/iphone/TapRoulette/clickSound.wav /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/demo.mov demo.mov
+r0
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/iTunesArtwork iTunesArtwork
+s323551144.240675
+e323551144.265544
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/iTunesArtwork
+xiTunesArtwork
+lSLF07#2@18"Copy iTunesArtwork323551144#323551144#0(0"0(0#0#55"/Users/cclaan/projects/iphone/TapRoulette/iTunesArtwork8718199456#532"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cclaan/projects/iphone/TapRoulette/iTunesArtwork /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/tickSound.wav tickSound.wav
+s323551144.175803
+e323551144.215002
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/tickSound.wav
+xtickSound.wav
+lSLF07#2@18"Copy tickSound.wav323551144#323551144#0(0"0(0#0#55"/Users/cclaan/projects/iphone/TapRoulette/tickSound.wav8721906144#532"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cclaan/projects/iphone/TapRoulette/tickSound.wav /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCpResource build/Debug-iphoneos/TapRoulette.app/touchUpSound2.wav touchUpSound2.wav
+s323551142.756606
+e323551143.354394
+r1
+xCpResource
+xbuild/Debug-iphoneos/TapRoulette.app/touchUpSound2.wav
+xtouchUpSound2.wav
+lSLF07#2@22"Copy touchUpSound2.wav323551142#323551143#0(0"0(0#0#59"/Users/cclaan/projects/iphone/TapRoulette/touchUpSound2.wav8721304896#536"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/cclaan/projects/iphone/TapRoulette/touchUpSound2.wav /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+
+CCreateUniversalBinary /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette normal "armv6 armv7"
+s323554298.026382
+e323554298.033167
+r1
+xCreateUniversalBinary
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette
+xnormal
+xarmv6 armv7
+lSLF07#2@91"CreateUniversalBinary build/Debug-iphoneos/TapRoulette.app/TapRoulette normal "armv6 armv7"323554298#323554298#0(0"0(0#0#53"/Users/cclaan/projects/iphone/TapRoulette/armv6 armv78722016832#624"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/lipo -create /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette -output /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette0#
+
+CGenerateDSYMFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app.dSYM /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette
+s323554298.033247
+e323554298.183814
+r1
+xGenerateDSYMFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app.dSYM
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette
+lSLF07#2@107"GenerateDSYMFile build/Debug-iphoneos/TapRoulette.app.dSYM build/Debug-iphoneos/TapRoulette.app/TapRoulette323554298#323554298#0(0"0(0#0#90"/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette8604390752#445"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/TapRoulette -o /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app.dSYM0#
+
+CLd /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette normal armv6
+s323554297.490910
+e323554298.026305
+r1
+xLd
+x/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette
+xnormal
+xarmv6
+lSLF07#2@136"Link /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette323554297#323554298#0(0"0(0#0#0"8720057984#1026"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -filelist /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -framework AudioToolbox -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv6/TapRoulette0#
+
+CLd /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette normal armv7
+s323554297.723484
+e323554298.024127
+r1
+xLd
+x/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette
+xnormal
+xarmv7
+lSLF07#2@136"Link /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette323554297#323554298#0(0"0(0#0#0"8724839968#1026"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -filelist /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework QuartzCore -framework OpenGLES -framework AudioToolbox -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/Objects-normal/armv7/TapRoulette0#
+
+CProcessInfoPlistFile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Info.plist TapRoulette-Info.plist
+s323554293.374537
+e323554293.425371
+r1
+xProcessInfoPlistFile
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Info.plist
+xTapRoulette-Info.plist
+lSLF07#2@30"Process TapRoulette-Info.plist323554293#323554293#0(0"0(0#0#64"/Users/cclaan/projects/iphone/TapRoulette/TapRoulette-Info.plist8720298848#652"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility TapRoulette-Info.plist -genpkginfo /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/ResourceRules.plist -o /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/Info.plist0#
+
+CProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s323551146.305635
+e323551151.794746
+r1
+xProcessPCH
+x/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch.gch
+xTapRoulette_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile TapRoulette_Prefix.pch323551146#323551151#0(0"0(0#0#64"/Users/cclaan/projects/iphone/TapRoulette/TapRoulette_Prefix.pch8724334432#1790"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv6 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -c /Users/cclaan/projects/iphone/TapRoulette/TapRoulette_Prefix.pch -o /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bhgdljlvykucizaygpmsrihluolv/TapRoulette_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+s323551146.364201
+e323551152.024185
+r1
+xProcessPCH
+x/var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch.gch
+xTapRoulette_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Precompile TapRoulette_Prefix.pch323551146#323551152#0(0"0(0#0#64"/Users/cclaan/projects/iphone/TapRoulette/TapRoulette_Prefix.pch8722371456#1790"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-generated-files.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-own-target-headers.hmap -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-all-target-headers.hmap -iquote /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette-project-headers.hmap -F/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos -I/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/include -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources/armv7 -I/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/DerivedSources -c /Users/cclaan/projects/iphone/TapRoulette/TapRoulette_Prefix.pch -o /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-bneoutfqijhnraeqiejbvfnvvvgy/TapRoulette_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-eyuozxbvgmzigbfbnomresjkxroh/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/7v/7vFIi8d3FQKMU2QJz-YoF++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TapRoulette_Prefix-ffcevuzrkbxaymepczfndhvycfgq/TapRoulette_Prefix.pch.gch TapRoulette_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision" /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision
+s323551153.881194
+e323551153.916985
+r1
+xProcessProductPackaging
+x/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision" build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision323551153#323551153#0(0"0(0#0#103"/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision8706844384#496"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> "/Users/cclaan/Library/MobileDevice/Provisioning Profiles/D8D4B3DA-CE59-4282-A226-8EAAB9CB75F0.mobileprovision" -o /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent
+s323554298.188497
+e323554298.213610
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent
+lSLF07#2@187"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent323554298#323554298#0(0"0(0#0#116"/Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent8723179520#512"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/cclaan/projects/iphone/TapRoulette/build/TapRoulette.build/Debug-iphoneos/TapRoulette.build/TapRoulette.xcent0#
+
+CTouch /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+s323554298.184002
+e323554298.188402
+r1
+xTouch
+x/Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app
+lSLF07#2@84"Touch /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app323554298#323554298#0(0"0(0#0#0"8724763520#336"    cd /Users/cclaan/projects/iphone/TapRoulette    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/cclaan/projects/iphone/TapRoulette/build/Debug-iphoneos/TapRoulette.app0#
+

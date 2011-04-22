@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
+		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
+		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
+		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		74AC3F171348FEEE0035A8C1 /* touchUpSound2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F081348FEEE0035A8C1 /* touchUpSound2.wav */; };
+		74AC3F181348FEEE0035A8C1 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F091348FEEE0035A8C1 /* Icon@2x.png */; };
+		74AC3F191348FEEE0035A8C1 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0A1348FEEE0035A8C1 /* Icon.png */; };
+		74AC3F1A1348FEEE0035A8C1 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0B1348FEEE0035A8C1 /* Icon-Small@2x.png */; };
+		74AC3F1B1348FEEE0035A8C1 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0C1348FEEE0035A8C1 /* Icon-Small.png */; };
+		74AC3F1C1348FEEE0035A8C1 /* tickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0D1348FEEE0035A8C1 /* tickSound.wav */; };
+		74AC3F1D1348FEEE0035A8C1 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0E1348FEEE0035A8C1 /* Icon-Small-50.png */; };
+		74AC3F1E1348FEEE0035A8C1 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F0F1348FEEE0035A8C1 /* Icon-72.png */; };
+		74AC3F1F1348FEEE0035A8C1 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F101348FEEE0035A8C1 /* iTunesArtwork */; };
+		74AC3F201348FEEE0035A8C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F111348FEEE0035A8C1 /* Default.png */; };
+		74AC3F211348FEEE0035A8C1 /* pick_button_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F121348FEEE0035A8C1 /* pick_button_down.png */; };
+		74AC3F221348FEEE0035A8C1 /* chooseSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F131348FEEE0035A8C1 /* chooseSound.wav */; };
+		74AC3F231348FEEE0035A8C1 /* clickSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F141348FEEE0035A8C1 /* clickSound.wav */; };
+		74AC3F241348FEEE0035A8C1 /* pick_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F151348FEEE0035A8C1 /* pick_button.png */; };
+		74AC3F251348FEEE0035A8C1 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F161348FEEE0035A8C1 /* bg.png */; };
+		74AC3F321348FF020035A8C1 /* Texture2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3F271348FF020035A8C1 /* Texture2D.m */; };
+		74AC3F331348FF020035A8C1 /* Sound.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3F291348FF020035A8C1 /* Sound.m */; };
+		74AC3F341348FF020035A8C1 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3F2B1348FF020035A8C1 /* EAGLView.m */; };
+		74AC3F351348FF020035A8C1 /* PFInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3F2D1348FF020035A8C1 /* PFInfoController.m */; };
+		74AC3F361348FF020035A8C1 /* PFInfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F2E1348FF020035A8C1 /* PFInfoController.xib */; };
+		74AC3F371348FF020035A8C1 /* InfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC3F301348FF020035A8C1 /* InfoController.m */; };
+		74AC3F381348FF020035A8C1 /* InfoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3F311348FF020035A8C1 /* InfoController.xib */; };
+		74AC3F5A1348FF0D0035A8C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AC3F581348FF0D0035A8C1 /* QuartzCore.framework */; };
+		74AC3F5B1348FF0D0035A8C1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AC3F591348FF0D0035A8C1 /* OpenGLES.framework */; };
+		74AC3F671348FF160035A8C1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AC3F661348FF160035A8C1 /* AudioToolbox.framework */; };
+		74AC3FD8134907420035A8C1 /* Default-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FD7134907420035A8C1 /* Default-iPad.png */; };
+		74AC3FE81349094D0035A8C1 /* finger-5-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FE31349094D0035A8C1 /* finger-5-iphone.png */; };
+		74AC3FE91349094D0035A8C1 /* finger-4-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FE41349094D0035A8C1 /* finger-4-iphone.png */; };
+		74AC3FEA1349094D0035A8C1 /* finger-3-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FE51349094D0035A8C1 /* finger-3-iphone.png */; };
+		74AC3FEB1349094D0035A8C1 /* finger-2-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FE61349094D0035A8C1 /* finger-2-iphone.png */; };
+		74AC3FEC1349094D0035A8C1 /* finger-1-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC3FE71349094D0035A8C1 /* finger-1-iphone.png */; };
+		74AC401713490D750035A8C1 /* finger-5-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC401213490D750035A8C1 /* finger-5-ipad.png */; };
+		74AC401813490D750035A8C1 /* finger-4-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC401313490D750035A8C1 /* finger-4-ipad.png */; };
+		74AC401913490D750035A8C1 /* finger-3-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC401413490D750035A8C1 /* finger-3-ipad.png */; };
+		74AC401A13490D750035A8C1 /* finger-2-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC401513490D750035A8C1 /* finger-2-ipad.png */; };
+		74AC401B13490D750035A8C1 /* finger-1-ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 74AC401613490D750035A8C1 /* finger-1-ipad.png */; };
+		74AC402C134928740035A8C1 /* demo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 74AC402B134928740035A8C1 /* demo.mov */; };
+		74AC4033134929510035A8C1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74AC4032134929510035A8C1 /* MediaPlayer.framework */; };
+		74AC405F13492B500035A8C1 /* MPMoviePlayerViewControllerL.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AC405E13492B500035A8C1 /* MPMoviePlayerViewControllerL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* TapRoulette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapRoulette.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
+		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
+		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		2860E32B111B888700E27156 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPad.h; sourceTree = "<group>"; };
+		2860E32C111B888700E27156 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPad.m; sourceTree = "<group>"; };
+		2860E32D111B888700E27156 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow_iPad.xib; sourceTree = "<group>"; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* TapRoulette_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapRoulette_Prefix.pch; sourceTree = "<group>"; };
+		74AC3F081348FEEE0035A8C1 /* touchUpSound2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = touchUpSound2.wav; sourceTree = "<group>"; };
+		74AC3F091348FEEE0035A8C1 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		74AC3F0A1348FEEE0035A8C1 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		74AC3F0B1348FEEE0035A8C1 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		74AC3F0C1348FEEE0035A8C1 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		74AC3F0D1348FEEE0035A8C1 /* tickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = tickSound.wav; sourceTree = "<group>"; };
+		74AC3F0E1348FEEE0035A8C1 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		74AC3F0F1348FEEE0035A8C1 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		74AC3F101348FEEE0035A8C1 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		74AC3F111348FEEE0035A8C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		74AC3F121348FEEE0035A8C1 /* pick_button_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_button_down.png; sourceTree = "<group>"; };
+		74AC3F131348FEEE0035A8C1 /* chooseSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chooseSound.wav; sourceTree = "<group>"; };
+		74AC3F141348FEEE0035A8C1 /* clickSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clickSound.wav; sourceTree = "<group>"; };
+		74AC3F151348FEEE0035A8C1 /* pick_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pick_button.png; sourceTree = "<group>"; };
+		74AC3F161348FEEE0035A8C1 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		74AC3F261348FF020035A8C1 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		74AC3F271348FF020035A8C1 /* Texture2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Texture2D.m; sourceTree = "<group>"; };
+		74AC3F281348FF020035A8C1 /* Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sound.h; sourceTree = "<group>"; };
+		74AC3F291348FF020035A8C1 /* Sound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sound.m; sourceTree = "<group>"; };
+		74AC3F2A1348FF020035A8C1 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		74AC3F2B1348FF020035A8C1 /* EAGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		74AC3F2C1348FF020035A8C1 /* PFInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFInfoController.h; sourceTree = "<group>"; };
+		74AC3F2D1348FF020035A8C1 /* PFInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFInfoController.m; sourceTree = "<group>"; };
+		74AC3F2E1348FF020035A8C1 /* PFInfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PFInfoController.xib; sourceTree = "<group>"; };
+		74AC3F2F1348FF020035A8C1 /* InfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoController.h; sourceTree = "<group>"; };
+		74AC3F301348FF020035A8C1 /* InfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoController.m; sourceTree = "<group>"; };
+		74AC3F311348FF020035A8C1 /* InfoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoController.xib; sourceTree = "<group>"; };
+		74AC3F581348FF0D0035A8C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		74AC3F591348FF0D0035A8C1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		74AC3F661348FF160035A8C1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74AC3FD7134907420035A8C1 /* Default-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-iPad.png"; sourceTree = "<group>"; };
+		74AC3FE31349094D0035A8C1 /* finger-5-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-5-iphone.png"; path = "finger-images/finger-5-iphone.png"; sourceTree = "<group>"; };
+		74AC3FE41349094D0035A8C1 /* finger-4-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-4-iphone.png"; path = "finger-images/finger-4-iphone.png"; sourceTree = "<group>"; };
+		74AC3FE51349094D0035A8C1 /* finger-3-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-3-iphone.png"; path = "finger-images/finger-3-iphone.png"; sourceTree = "<group>"; };
+		74AC3FE61349094D0035A8C1 /* finger-2-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-2-iphone.png"; path = "finger-images/finger-2-iphone.png"; sourceTree = "<group>"; };
+		74AC3FE71349094D0035A8C1 /* finger-1-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-1-iphone.png"; path = "finger-images/finger-1-iphone.png"; sourceTree = "<group>"; };
+		74AC401213490D750035A8C1 /* finger-5-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-5-ipad.png"; path = "finger-images-ipad/finger-5-ipad.png"; sourceTree = "<group>"; };
+		74AC401313490D750035A8C1 /* finger-4-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-4-ipad.png"; path = "finger-images-ipad/finger-4-ipad.png"; sourceTree = "<group>"; };
+		74AC401413490D750035A8C1 /* finger-3-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-3-ipad.png"; path = "finger-images-ipad/finger-3-ipad.png"; sourceTree = "<group>"; };
+		74AC401513490D750035A8C1 /* finger-2-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-2-ipad.png"; path = "finger-images-ipad/finger-2-ipad.png"; sourceTree = "<group>"; };
+		74AC401613490D750035A8C1 /* finger-1-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "finger-1-ipad.png"; path = "finger-images-ipad/finger-1-ipad.png"; sourceTree = "<group>"; };
+		74AC402B134928740035A8C1 /* demo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = demo.mov; sourceTree = "<group>"; };
+		74AC4032134929510035A8C1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		74AC405D13492B500035A8C1 /* MPMoviePlayerViewControllerL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMoviePlayerViewControllerL.h; sourceTree = "<group>"; };
+		74AC405E13492B500035A8C1 /* MPMoviePlayerViewControllerL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPMoviePlayerViewControllerL.m; sourceTree = "<group>"; };
+		74AC40D5134932540035A8C1 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* TapRoulette-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TapRoulette-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				74AC3F5A1348FF0D0035A8C1 /* QuartzCore.framework in Frameworks */,
+				74AC3F5B1348FF0D0035A8C1 /* OpenGLES.framework in Frameworks */,
+				74AC3F671348FF160035A8C1 /* AudioToolbox.framework in Frameworks */,
+				74AC4033134929510035A8C1 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* TapRoulette.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2860E324111B887F00E27156 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				2860E325111B887F00E27156 /* AppDelegate_iPhone.h */,
+				2860E326111B887F00E27156 /* AppDelegate_iPhone.m */,
+				2860E327111B887F00E27156 /* MainWindow_iPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		2860E32A111B888700E27156 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32B111B888700E27156 /* AppDelegate_iPad.h */,
+				2860E32C111B888700E27156 /* AppDelegate_iPad.m */,
+				2860E32D111B888700E27156 /* MainWindow_iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		28EEBF621118D79A00187D67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				74AC3F261348FF020035A8C1 /* Texture2D.h */,
+				74AC3F271348FF020035A8C1 /* Texture2D.m */,
+				74AC3F281348FF020035A8C1 /* Sound.h */,
+				74AC3F291348FF020035A8C1 /* Sound.m */,
+				74AC3F2A1348FF020035A8C1 /* EAGLView.h */,
+				74AC3F2B1348FF020035A8C1 /* EAGLView.m */,
+				74AC3F2C1348FF020035A8C1 /* PFInfoController.h */,
+				74AC3F2D1348FF020035A8C1 /* PFInfoController.m */,
+				74AC3F2E1348FF020035A8C1 /* PFInfoController.xib */,
+				74AC3F2F1348FF020035A8C1 /* InfoController.h */,
+				74AC3F301348FF020035A8C1 /* InfoController.m */,
+				74AC3F311348FF020035A8C1 /* InfoController.xib */,
+				8D1107310486CEB800E47090 /* TapRoulette-Info.plist */,
+				74AC405D13492B500035A8C1 /* MPMoviePlayerViewControllerL.h */,
+				74AC405E13492B500035A8C1 /* MPMoviePlayerViewControllerL.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2860E32A111B888700E27156 /* iPad */,
+				2860E324111B887F00E27156 /* iPhone */,
+				28EEBF621118D79A00187D67 /* Shared */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				74AC3F071348FEE00035A8C1 /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				74AC4032134929510035A8C1 /* MediaPlayer.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TapRoulette_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74AC3F661348FF160035A8C1 /* AudioToolbox.framework */,
+				74AC3F581348FF0D0035A8C1 /* QuartzCore.framework */,
+				74AC3F591348FF0D0035A8C1 /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74AC3F071348FEE00035A8C1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				74AC402B134928740035A8C1 /* demo.mov */,
+				74AC401113490D670035A8C1 /* finger-images-ipad */,
+				74AC3FE21349093B0035A8C1 /* finger-images-iphone */,
+				74AC3FD7134907420035A8C1 /* Default-iPad.png */,
+				74AC3F081348FEEE0035A8C1 /* touchUpSound2.wav */,
+				74AC3F091348FEEE0035A8C1 /* Icon@2x.png */,
+				74AC3F0A1348FEEE0035A8C1 /* Icon.png */,
+				74AC3F0B1348FEEE0035A8C1 /* Icon-Small@2x.png */,
+				74AC3F0C1348FEEE0035A8C1 /* Icon-Small.png */,
+				74AC3F0D1348FEEE0035A8C1 /* tickSound.wav */,
+				74AC3F0E1348FEEE0035A8C1 /* Icon-Small-50.png */,
+				74AC3F0F1348FEEE0035A8C1 /* Icon-72.png */,
+				74AC3F101348FEEE0035A8C1 /* iTunesArtwork */,
+				74AC3F111348FEEE0035A8C1 /* Default.png */,
+				74AC3F121348FEEE0035A8C1 /* pick_button_down.png */,
+				74AC3F131348FEEE0035A8C1 /* chooseSound.wav */,
+				74AC3F141348FEEE0035A8C1 /* clickSound.wav */,
+				74AC3F151348FEEE0035A8C1 /* pick_button.png */,
+				74AC3F161348FEEE0035A8C1 /* bg.png */,
+				74AC40D5134932540035A8C1 /* Entitlements.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		74AC3FE21349093B0035A8C1 /* finger-images-iphone */ = {
+			isa = PBXGroup;
+			children = (
+				74AC3FE31349094D0035A8C1 /* finger-5-iphone.png */,
+				74AC3FE41349094D0035A8C1 /* finger-4-iphone.png */,
+				74AC3FE51349094D0035A8C1 /* finger-3-iphone.png */,
+				74AC3FE61349094D0035A8C1 /* finger-2-iphone.png */,
+				74AC3FE71349094D0035A8C1 /* finger-1-iphone.png */,
+			);
+			name = "finger-images-iphone";
+			sourceTree = "<group>";
+		};
+		74AC401113490D670035A8C1 /* finger-images-ipad */ = {
+			isa = PBXGroup;
+			children = (
+				74AC401213490D750035A8C1 /* finger-5-ipad.png */,
+				74AC401313490D750035A8C1 /* finger-4-ipad.png */,
+				74AC401413490D750035A8C1 /* finger-3-ipad.png */,
+				74AC401513490D750035A8C1 /* finger-2-ipad.png */,
+				74AC401613490D750035A8C1 /* finger-1-ipad.png */,
+			);
+			name = "finger-images-ipad";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* TapRoulette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapRoulette" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapRoulette;
+			productName = TapRoulette;
+			productReference = 1D6058910D05DD3D006BFB54 /* TapRoulette.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapRoulette" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* TapRoulette */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */,
+				2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */,
+				74AC3F171348FEEE0035A8C1 /* touchUpSound2.wav in Resources */,
+				74AC3F181348FEEE0035A8C1 /* Icon@2x.png in Resources */,
+				74AC3F191348FEEE0035A8C1 /* Icon.png in Resources */,
+				74AC3F1A1348FEEE0035A8C1 /* Icon-Small@2x.png in Resources */,
+				74AC3F1B1348FEEE0035A8C1 /* Icon-Small.png in Resources */,
+				74AC3F1C1348FEEE0035A8C1 /* tickSound.wav in Resources */,
+				74AC3F1D1348FEEE0035A8C1 /* Icon-Small-50.png in Resources */,
+				74AC3F1E1348FEEE0035A8C1 /* Icon-72.png in Resources */,
+				74AC3F1F1348FEEE0035A8C1 /* iTunesArtwork in Resources */,
+				74AC3F201348FEEE0035A8C1 /* Default.png in Resources */,
+				74AC3F211348FEEE0035A8C1 /* pick_button_down.png in Resources */,
+				74AC3F221348FEEE0035A8C1 /* chooseSound.wav in Resources */,
+				74AC3F231348FEEE0035A8C1 /* clickSound.wav in Resources */,
+				74AC3F241348FEEE0035A8C1 /* pick_button.png in Resources */,
+				74AC3F251348FEEE0035A8C1 /* bg.png in Resources */,
+				74AC3F361348FF020035A8C1 /* PFInfoController.xib in Resources */,
+				74AC3F381348FF020035A8C1 /* InfoController.xib in Resources */,
+				74AC3FD8134907420035A8C1 /* Default-iPad.png in Resources */,
+				74AC3FE81349094D0035A8C1 /* finger-5-iphone.png in Resources */,
+				74AC3FE91349094D0035A8C1 /* finger-4-iphone.png in Resources */,
+				74AC3FEA1349094D0035A8C1 /* finger-3-iphone.png in Resources */,
+				74AC3FEB1349094D0035A8C1 /* finger-2-iphone.png in Resources */,
+				74AC3FEC1349094D0035A8C1 /* finger-1-iphone.png in Resources */,
+				74AC401713490D750035A8C1 /* finger-5-ipad.png in Resources */,
+				74AC401813490D750035A8C1 /* finger-4-ipad.png in Resources */,
+				74AC401913490D750035A8C1 /* finger-3-ipad.png in Resources */,
+				74AC401A13490D750035A8C1 /* finger-2-ipad.png in Resources */,
+				74AC401B13490D750035A8C1 /* finger-1-ipad.png in Resources */,
+				74AC402C134928740035A8C1 /* demo.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */,
+				2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */,
+				74AC3F321348FF020035A8C1 /* Texture2D.m in Sources */,
+				74AC3F331348FF020035A8C1 /* Sound.m in Sources */,
+				74AC3F341348FF020035A8C1 /* EAGLView.m in Sources */,
+				74AC3F351348FF020035A8C1 /* PFInfoController.m in Sources */,
+				74AC3F371348FF020035A8C1 /* InfoController.m in Sources */,
+				74AC405F13492B500035A8C1 /* MPMoviePlayerViewControllerL.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/projects/iphone/TapRoulette/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapRoulette_Prefix.pch;
+				INFOPLIST_FILE = "TapRoulette-Info.plist";
+				PRODUCT_NAME = TapRoulette;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/projects/iphone/TapRoulette/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapRoulette_Prefix.pch;
+				INFOPLIST_FILE = "TapRoulette-Info.plist";
+				PRODUCT_NAME = TapRoulette;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74AC40C2134930790035A8C1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laan Consulting Corp";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2E43697A-9A83-4A2F-BBFA-FC9F7BE892C7";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		74AC40C3134930790035A8C1 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/projects/iphone/TapRoulette/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapRoulette_Prefix.pch;
+				INFOPLIST_FILE = "TapRoulette-Info.plist";
+				PRODUCT_NAME = TapRoulette;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		74AC40CF134932230035A8C1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Laan Consulting Corp";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9270489D-B836-44A1-9726-5F1C51E7D4E0";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad Hoc";
+		};
+		74AC40D0134932230035A8C1 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/projects/iphone/TapRoulette/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TapRoulette_Prefix.pch;
+				INFOPLIST_FILE = "TapRoulette-Info.plist";
+				PRODUCT_NAME = TapRoulette;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "TapRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				74AC40C3134930790035A8C1 /* Distribution */,
+				74AC40D0134932230035A8C1 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TapRoulette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				74AC40C2134930790035A8C1 /* Distribution */,
+				74AC40CF134932230035A8C1 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
